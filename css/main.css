@@ -13,7 +13,7 @@ b, strong{font-weight:normal;}
 em, address{font-style:normal;}
 a{text-decoration:none; color:#000;}
 
-.box_inner{position:relative; width:980px; margin:0 auto; box-sizing:border-box;}
+.inner_notice{position:relative; width:980px; margin:0 auto; box-sizing:border-box;}
 .offscreen{position:absolute; width:1px; height:1px; margin:-1px; padding:0; border:0; clip:rect(0 0 0 0); overflow:hidden;}
 .img img{width:100%;}
 .nav_skip a{position:fixed; top:-9999px; left:0; width:100%; padding:10px; font-weight:bold; text-align:center; color:#fff; background:#a63737; z-index:9999;}
@@ -21,9 +21,9 @@ a{text-decoration:none; color:#000;}
 
 /* notice */
 .top_notice{width:100%; background:#f2f2f2; overflow:hidden; font-size:13px;}
-.top_notice .box_inner{padding:20px 0}/*height:120px*/
-.top_notice .tit{height:30px; line-height:30px; color:#000;}
-.top_notice .list_intro li{line-height:20px; color:#777;}
+.top_notice .inner_notice{padding:20px 0}/*height:120px*/
+.top_notice .tit_notice{height:30px; line-height:30px; color:#000;}
+.top_notice .list_notice li{line-height:20px; color:#777;}
 .top_notice .btn_close{width:50px; height:50px; position:absolute; right:15px; bottom:15px; background:url(../images/btn_close.gif) no-repeat;text-indent:-5000px; overflow:hidden;}
 
 /*****************************************************
@@ -31,6 +31,8 @@ a{text-decoration:none; color:#000;}
 *****************************************************/
 .header{border-top:10px solid #999;}
 .header::after{content:''; display:block; clear:both;}
+.inner_header{position:relative; width:980px; margin:0 auto}
+.inner_header::after{display:block; clear:both; content:''}
 .logo_main{position:absolute; left:-55px; margin-top:45px; overflow:hidden;}
 .logo_main .bar_01{display:inline-block; position:absolute; top:25px; left:-11px; width:71px; height:1px; background:#999;}
 .logo_main .bar_02{display:inline-block; position:absolute; top:25px; left:-11px; width:71px; height:1px; background:#a63737;}

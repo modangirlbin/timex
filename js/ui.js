@@ -49,7 +49,7 @@ $(function(){
 
 window.onload = function(){
 	//top notice
-	var $top_notice = $('#wrapper .top_notice'),
+	var $top_notice = $('.wrapper .top_notice'),
 		$close = $top_notice.find('.btn_close');
 
 		$top_notice.css("height",0);
