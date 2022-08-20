@@ -5,3 +5,5 @@
 - 숨김텍스트 이용하여 접근성 사용자도 현재시간 알수 있도록 하였습니다.
 - 메인 카피문구 효과는 JS없이 CSS animation 이용하여 구현하였습니다.
 - IE10이상, chrome에서 정상작동합니다.
+
+[![timex](images/overview.png)](https://modangirlbin.github.io/timex)
