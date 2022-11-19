@@ -20,11 +20,11 @@ a{text-decoration:none; color:#000;}
 .nav_skip a:focus{top:0px;}
 
 /* notice */
-.top_notice{width:100%; background:#f2f2f2; overflow:hidden; font-size:13px;}
-.top_notice .inner_notice{padding:20px 0}/*height:120px*/
-.top_notice .tit_notice{height:30px; line-height:30px; color:#000;}
-.top_notice .list_notice li{line-height:20px; color:#777;}
-.top_notice .btn_close{width:50px; height:50px; position:absolute; right:15px; bottom:15px; background:url(../images/btn_close.gif) no-repeat;text-indent:-5000px; overflow:hidden;}
+.wrap_notice{width:100%; background:#f2f2f2; overflow:hidden; font-size:13px;}
+.wrap_notice .inner_notice{padding:20px 0}/*height:120px*/
+.wrap_notice .tit_notice{height:30px; line-height:30px; color:#000;}
+.wrap_notice .list_notice li{line-height:20px; color:#777;}
+.wrap_notice .btn_close{width:50px; height:50px; position:absolute; right:15px; bottom:15px; background:url(../images/btn_close.gif) no-repeat;text-indent:-5000px; overflow:hidden;}
 
 /*****************************************************
  HEADER 
